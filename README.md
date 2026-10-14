@@ -21,6 +21,8 @@ All commands are run from the root of the project, from a terminal:
 - Site-wide settings (title, description, email) live in `src/consts.ts`.
 - Page content (hero, pitch, capabilities, CTA) lives in `src/pages/index.astro`.
 - Replace `public/open-graph.jpg` and `public/favicon.svg` with your own branding.
+- The hero portrait is `public/josh-peaker.jpg`, the whole photo at 768x768. The frame crops and zooms it in CSS via the transform on the `img` in `index.astro`, so keep the source large enough for that zoom at 2x DPR (frame px x zoom x 2).
+- The CTA's "Download CV" button serves `public/josh-peaker-cv.pdf`. Drop a replacement at that path to update it.
 
 ## License
 

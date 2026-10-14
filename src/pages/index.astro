@@ -9,20 +9,29 @@ import { SITE, EMAIL } from "@consts"
     <div class="mx-auto w-full max-w-screen-sm p-6">
 
       <!-- HERO -->
-      <section class="animate text-center">
-        <p class='text-sm md:text-base lg:text-lg font-semibold opacity-75'>
-          Freelance Senior Full Stack Engineer
-        </p>
-        <h1 class='mt-2 text-4xl md:text-5xl font-bold uppercase text-black dark:text-white'>
-          {SITE.TITLE}
-        </h1>
-        <p class='text-sm md:text-base lg:text-lg opacity-75'>
-          Node.js, C# .NET, TypeScript &amp; React
-        </p>
+      <section class="animate flex flex-col items-center gap-5 text-center sm:flex-row sm:justify-center sm:gap-12">
+        <div class="h-28 w-28 shrink-0 overflow-hidden rounded-2xl">
+          <img
+            src="/josh-peaker.jpg"
+            alt="Josh Peaker"
+            class="h-full w-full object-cover [transform:translate(-4.5%,57.5%)_scale(3.02)]"
+          />
+        </div>
+        <div>
+          <p class='text-sm md:text-base lg:text-lg font-semibold opacity-75'>
+            Freelance Senior Full Stack Engineer
+          </p>
+          <h1 class='mt-1.5 text-4xl md:text-5xl font-bold uppercase text-black dark:text-white'>
+            {SITE.TITLE}
+          </h1>
+          <p class='text-sm md:text-base lg:text-lg opacity-75'>
+            Node.js, C# .NET, TypeScript &amp; React
+          </p>
+        </div>
       </section>
 
       <!-- Pitch -->
-      <section class="animate mt-12">
+      <section class="animate mt-10">
         <p class="font-semibold text-black dark:text-white">
           Who I am
         </p>
@@ -32,7 +41,7 @@ import { SITE, EMAIL } from "@consts"
       </section>
 
       <!-- Capabilities -->
-      <section class="animate mt-12">
+      <section class="animate mt-10">
         <p class="font-semibold text-black dark:text-white">
           What I work with
         </p>
@@ -59,16 +68,19 @@ import { SITE, EMAIL } from "@consts"
       </section>
 
       <!-- CTA -->
-      <section class="animate mt-12">
+      <section class="animate mt-10">
         <p class="font-semibold text-black dark:text-white">
           Now accepting projects for Q4 2026 and Q1 2027
         </p>
         <p class="mt-2">
           If you need help on one of your projects, get in touch and let's chat!
         </p>
-        <div class="mt-5 justify-center flex flex-wrap">
+        <div class="mt-5 justify-center flex flex-wrap gap-6">
           <a href={`mailto:${EMAIL}`} class='py-2.5 px-6 rounded text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
             Get in touch
+          </a>
+          <a href="/josh-peaker-cv.pdf" download class='py-2.5 px-6 rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/30 text-black dark:text-white hover:opacity-75 blend'>
+            Download CV
           </a>
         </div>
         <p class="mt-3 text-center text-sm opacity-60">
