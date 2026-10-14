@@ -5,7 +5,7 @@ export const SITE: Site = {
   TITLE: "Josh Peaker",
   ROLE: "Freelance Senior Full Stack Engineer",
   DESCRIPTION:
-    "Freelance Senior Full Stack Engineer in London. 12 years building Node.js, TypeScript and React products end to end. Available for freelance and contract work.",
+    "Freelance Senior Full Stack Engineer in London. 12 years building Node.js, C# .NET, TypeScript and React products. Available for freelance and contract work.",
   AUTHOR: "Josh Peaker",
 }
 

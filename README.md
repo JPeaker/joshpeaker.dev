@@ -1,6 +1,6 @@
 # joshpeaker.dev
 
-Single-page freelance site for [Josh Peaker](mailto:josh@joshpeaker.dev) — Senior Full Stack Engineer (Node.js, TypeScript & React).
+Single-page freelance site for [Josh Peaker](mailto:josh@joshpeaker.dev), Senior Full Stack Engineer (Node.js, C# .NET, TypeScript & React).
 
 Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), forked from the [Astro Sphere](https://github.com/markhorn-dev/astro-sphere) template and trimmed down to a single page.
 
@@ -24,4 +24,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## License
 
-MIT — see `LICENSE` (original template by [Mark Horn](https://github.com/markhorn-dev)).
+MIT. See `LICENSE` (original template by [Mark Horn](https://github.com/markhorn-dev)).
