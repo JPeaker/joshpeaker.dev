@@ -11,13 +11,13 @@ import { SITE, EMAIL } from "@consts"
       <!-- HERO -->
       <section class="animate text-center">
         <p class='text-sm md:text-base lg:text-lg font-semibold opacity-75'>
-          Freelance Senior Product Engineer
+          Freelance Senior Full Stack Engineer
         </p>
         <h1 class='mt-2 text-4xl md:text-5xl font-bold uppercase text-black dark:text-white'>
           {SITE.TITLE}
         </h1>
         <p class='text-sm md:text-base lg:text-lg opacity-75'>
-          React, TypeScript &amp; Design Systems
+          Node.js, TypeScript &amp; React
         </p>
       </section>
 
@@ -27,8 +27,35 @@ import { SITE, EMAIL } from "@consts"
           What I do
         </p>
         <p class="mt-3">
-          I'm a senior product engineer who turns design intent into robust, great-to-use, frontend products. Using my experience from <strong>monday.com</strong> (WorkForms) and <strong>Snyk</strong>, I help teams ship polished, accessible, efficient React and TypeScript interfaces, building from design stage to production-ready.
+          I'm a senior full stack engineer with 12 years building software end to end &mdash; Node.js and TypeScript services, APIs and data models, through to the React interfaces on top. At <strong>monday.com</strong> I architected the Node.js services behind WorkForms and then rebuilt the frontend around them; at <strong>Snyk</strong> I worked across the REST and GraphQL APIs and the accessible, data-dense dashboards on top. I take a feature from database to UI and own the whole slice, so nothing gets lost in the handoff.
         </p>
+      </section>
+
+      <!-- Capabilities -->
+      <section class="animate mt-12">
+        <p class="font-semibold text-black dark:text-white">
+          What I work with
+        </p>
+        <dl class="mt-3 space-y-4 text-sm">
+          <div>
+            <dt class="font-semibold text-black dark:text-white">Backend &amp; cloud</dt>
+            <dd class="mt-1 opacity-75">
+              Node.js &amp; TypeScript &middot; REST &amp; GraphQL API design &middot; NestJS &amp; Express &middot; Database design &amp; migrations &middot; Microservices
+            </dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-black dark:text-white">Frontend &amp; frameworks</dt>
+            <dd class="mt-1 opacity-75">
+              React &amp; Next.js &middot; Vue &middot; Complex state management &middot; Component libraries &amp; design systems &middot; Performance optimisation
+            </dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-black dark:text-white">Engineering practices</dt>
+            <dd class="mt-1 opacity-75">
+              End-to-end product delivery &middot; Monolith &amp; platform migrations &middot; Type safety across layers &middot; CI/CD
+            </dd>
+          </div>
+        </dl>
       </section>
 
       <!-- CTA -->
@@ -39,15 +66,12 @@ import { SITE, EMAIL } from "@consts"
         <p class="mt-2">
           I'd love to hear from you on what you're working on, and how I can help.
         </p>
-        </div>
-      </section>
-      <section class="animate mt-12">
-        <div class="justify-center flex flex-wrap">
+        <div class="mt-5 justify-center flex flex-wrap">
           <a href={`mailto:${EMAIL}`} class='py-2.5 px-6 rounded text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
             Get in touch
           </a>
-          </div>
-        <p class="mt-3 text-center text-sm">
+        </div>
+        <p class="mt-3 text-center text-sm opacity-60">
           {EMAIL}
         </p>
       </section>

@@ -1,6 +1,6 @@
 # joshpeaker.dev
 
-Single-page freelance site for [Josh Peaker](mailto:josh@joshpeaker.dev) — Senior Product Engineer (React, TypeScript & Design Systems).
+Single-page freelance site for [Josh Peaker](mailto:josh@joshpeaker.dev) — Senior Full Stack Engineer (Node.js, TypeScript & React).
 
 Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), forked from the [Astro Sphere](https://github.com/markhorn-dev/astro-sphere) template and trimmed down to a single page.
 
@@ -19,7 +19,7 @@ All commands are run from the root of the project, from a terminal:
 ## Site configuration
 
 - Site-wide settings (title, description, email) live in `src/consts.ts`.
-- Page content (hero, pitch, experience, CTA) lives in `src/pages/index.astro`.
+- Page content (hero, pitch, capabilities, CTA) lives in `src/pages/index.astro`.
 - Replace `public/open-graph.jpg` and `public/favicon.svg` with your own branding.
 
 ## License

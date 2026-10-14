@@ -3,7 +3,9 @@ import type { Site } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "Josh Peaker",
-  DESCRIPTION: "Freelance Senior Product Engineer — React, TypeScript & Design Systems.",
+  ROLE: "Freelance Senior Full Stack Engineer",
+  DESCRIPTION:
+    "Freelance Senior Full Stack Engineer in London. 12 years building Node.js, TypeScript and React products end to end. Available for freelance and contract work.",
   AUTHOR: "Josh Peaker",
 }
 

@@ -4,5 +4,6 @@ export type Page = {
 }
 
 export interface Site extends Page {
+  ROLE: string
   AUTHOR: string
 }
